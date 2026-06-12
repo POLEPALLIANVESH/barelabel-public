@@ -29,7 +29,7 @@ strips any internal cross-references, and pushes the resulting static
 HTML to `main` of this repository via an SSH deploy key scoped to
 this repo only.
 
-Last published: 2026-06-10.
+Last published: 2026-06-12.
 
 ## Contact
 
