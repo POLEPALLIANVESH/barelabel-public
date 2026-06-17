@@ -53,6 +53,12 @@
 <td>Deleted within 1 hour of processing</td>
 </tr>
 <tr>
+<td>Label corrections (crowdsourced)</td>
+<td>The ingredient text our OCR read from a label and the barcode it relates to, app version, and OCR confidence — attributed only to a daily-rotated <strong>salted hash</strong> of your user ID (or anonymous)</td>
+<td>The app, when you photograph a label</td>
+<td>When you use the photograph-a-label feature</td>
+</tr>
+<tr>
 <td>Telemetry</td>
 <td>App version, OS version, device model, country (from IP), crash reports</td>
 <td>The app</td>
@@ -71,6 +77,7 @@
 <li>To render personalized ingredient-safety scores (allergen preferences + scan history).</li>
 <li>To sync your state across your devices (account identifier + scan history).</li>
 <li>To keep the service available and abuse-free (telemetry).</li>
+<li>To improve the shared product dataset for everyone — crowdsourced label corrections are quarantined and curated before use, and are never tied to your identity beyond a rotating salted hash. You consent to this data use through these Terms; there is no separate per-scan prompt.</li>
 <li>To show ads — <strong>only if you opt in</strong> and ads are enabled.</li>
 </ul>
 <h2>4. Legal basis (GDPR / UK GDPR)</h2>
@@ -96,6 +103,10 @@
 <tr>
 <td>Telemetry</td>
 <td>Legitimate interest (Art. 6(1)(f)) — minimized + pseudonymized + opt-out toggle in Settings</td>
+</tr>
+<tr>
+<td>Label corrections (crowdsourced)</td>
+<td>Legitimate interest (Art. 6(1)(f)) — improving a shared product dataset. Submissions carry product facts (ingredients + barcode) plus a rotating salted-hash id (no raw identity), and are quarantined + curated before use. The data-use license is also granted via the Terms.</td>
 </tr>
 <tr>
 <td>Advertising identifiers</td>
@@ -170,6 +181,10 @@
 <tr>
 <td>OCR images</td>
 <td>≤ 1 hour server-side, then permanently deleted</td>
+</tr>
+<tr>
+<td>Label corrections</td>
+<td>Quarantined candidates: 12 months or until curated; product facts that are promoted become part of the dataset; rejected submissions: 90 days then purged</td>
 </tr>
 <tr>
 <td>Telemetry</td>
